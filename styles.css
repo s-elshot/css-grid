@@ -1,3 +1,5 @@
+/** requirements activated at screens < 576px =_Mobile_ */
+/** grid container element - screens < 576px  */
 .total-layout {
     background-color: #ffefdb;
     display: grid;
@@ -16,6 +18,7 @@
     padding: 16px;
 }
 
+/** div-class item - flex-box items */
 .item {
     background-color: #ba3b46;
     border: 2px #993139;
@@ -25,7 +28,7 @@
     align-items: center;
     padding: 16px;
 }
-
+/** id-items from divs - containing grid area's */
 #part-a {
     grid-area: gaa;
 }
@@ -50,6 +53,8 @@
     grid-area: gaf;
 }
 
+/** requirements activated at screens > 576px =_Desktops_ */
+/** grid container element - screens > 576px  */
 @media screen and (min-width: 576px) {
     .total-layout {
         background-color: #ffefdb;
@@ -64,16 +69,6 @@
         "gaf gaf gaf";
         row-gap: 16px;
         column-gap: 16px;
-        padding: 16px;
-    }
-
-    .item {
-        background-color: #ba3b46;
-        border: 2px #993139;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 16px;
     }
 }
