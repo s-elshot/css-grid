@@ -54,7 +54,7 @@
     grid-area: gaf;
 }
 
-/* requirements activated at screens > 576px =_Desktops_ */
+/* requirements activated at screens > 576px_Desktops_ */
 /* grid container element - screens > 576px  */
 @media screen and (min-width: 576px) {
     .total-layout {
